@@ -1,0 +1,47 @@
+﻿Compilación iniciada a las 03/03/2015 11:02:41.
+     1>Proyecto "D:\Users\jordinps\Desktop\UnitTest1\UnitTest1.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\soft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I"C:\soft\Microsoft Visual Studio 13.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UnitTests.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\soft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I"C:\soft\Microsoft Visual Studio 13.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UnitTests.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnitTestCadena.cpp UnitTestPoint2D.cpp
+         UnitTestPoint2D.cpp
+     1>d:\users\jordinps\desktop\project1\project1\point2d.h(18): warning C4172: devolución de dirección de la variable local o temporal
+     1>d:\users\jordinps\desktop\project1\project1\point2d.h(26): warning C4172: devolución de dirección de la variable local o temporal
+         UnitTestCadena.cpp
+     1>d:\users\jordinps\desktop\project1\project1\cadena.h(114): warning C4018: '>' : no coinciden signed/unsigned
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(43): error C2535: 'const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorEqualEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(36) : vea la declaración de 'UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorEqualEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(44): error C2535: 'void UnitTest1::UnitTest1::OperatorEqualEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(36) : vea la declaración de 'UnitTest1::UnitTest1::OperatorEqualEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(61): error C2535: 'const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorDifferent(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(50) : vea la declaración de 'UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorDifferent'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(62): error C2535: 'void UnitTest1::UnitTest1::OperatorDifferent(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(50) : vea la declaración de 'UnitTest1::UnitTest1::OperatorDifferent'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(82): error C2535: 'const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(72) : vea la declaración de 'UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(83): error C2535: 'void UnitTest1::UnitTest1::OperatorEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(72) : vea la declaración de 'UnitTest1::UnitTest1::OperatorEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(102): error C2535: 'const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorPlusEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(92) : vea la declaración de 'UnitTest1::UnitTest1::__GetTestMethodInfo_OperatorPlusEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(103): error C2535: 'void UnitTest1::UnitTest1::OperatorPlusEqual(void)' : función miembro ya definida o declarada
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(92) : vea la declaración de 'UnitTest1::UnitTest1::OperatorPlusEqual'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(54): warning C4804: '<' : uso no seguro del tipo 'bool' en la operación
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(56): error C2374: 'a' : nueva definición; inicialización múltiple
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(52) : vea la declaración de 'a'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(57): error C2374: 'b' : nueva definición; inicialización múltiple
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(53) : vea la declaración de 'b'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(65): warning C4804: '<' : uso no seguro del tipo 'bool' en la operación
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(67): error C2374: 'a' : nueva definición; inicialización múltiple
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(63) : vea la declaración de 'a'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(68): error C2374: 'b' : nueva definición; inicialización múltiple
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(64) : vea la declaración de 'b'
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(89): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual' : ninguna de las 8 sobrecargas pudo convertir todos los tipos de argumento
+                 c:\soft\microsoft visual studio 13.0\vc\unittest\include\cppunittestassert.h(179): puede ser 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+                 c:\soft\microsoft visual studio 13.0\vc\unittest\include\cppunittestassert.h(160): o       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+                 al hacer coincidir la lista de argumentos '(String, char *)'
+         Generando código...
+     1>Compilación del proyecto terminada "D:\Users\jordinps\Desktop\UnitTest1\UnitTest1.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.20

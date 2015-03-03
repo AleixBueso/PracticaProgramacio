@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 03/03/2015 11:31:57.
+     1>Proyecto "D:\Users\jordinps\Desktop\UnitTest1\UnitTests.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\soft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I"C:\soft\Microsoft Visual Studio 13.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UnitTests.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnitTestCadena.cpp
+         UnitTestCadena.cpp
+     1>d:\users\jordinps\desktop\project1\cadena.h(107): warning C4018: '>' : no coinciden signed/unsigned
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(62): warning C4804: '<' : uso no seguro del tipo 'bool' en la operación
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(66): warning C4804: '>' : uso no seguro del tipo 'bool' en la operación
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(73): warning C4804: '<' : uso no seguro del tipo 'bool' en la operación
+     1>d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(77): warning C4804: '>' : uso no seguro del tipo 'bool' en la operación
+     1>c:\soft\microsoft visual studio 13.0\vc\unittest\include\cppunittestassert.h(66): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<class String>(const class String &).
+                 c:\soft\microsoft visual studio 13.0\vc\unittest\include\cppunittestassert.h(129) : vea la referencia a la creación de instancias de plantilla de función 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' que se está compilando
+                 with
+                 [
+                     T=String
+         ,            Q=String
+                 ]
+                 d:\users\jordinps\desktop\unittest1\unittestcadena.cpp(87) : vea la referencia a la creación de instancias de plantilla de función 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<String>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' que se está compilando
+                 with
+                 [
+                     T=String
+                 ]
+     1>Compilación del proyecto terminada "D:\Users\jordinps\Desktop\UnitTest1\UnitTests.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.41

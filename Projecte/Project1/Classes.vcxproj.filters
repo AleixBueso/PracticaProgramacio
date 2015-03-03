@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Point2D.h">
+      <Filter>Aechivos de Encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Cadena.h">
+      <Filter>Aechivos de Encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Archivos de Recursos">
+      <UniqueIdentifier>{c1b25fe8-f6e0-4524-aa48-f2c6684ad97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aechivos de Encabezado">
+      <UniqueIdentifier>{70e017cc-59ec-439c-b09b-b811e532e04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente">
+      <UniqueIdentifier>{79b417a6-66c3-43c5-a00a-8f091d8c5ee8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de codigo fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Archivos de Recursos</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
